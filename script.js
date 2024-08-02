@@ -39,17 +39,13 @@ document.addEventListener('DOMContentLoaded', function () {
         flower.style.left = `${currentLeft - 400}px`;
 
         const message = document.createElement('p')
-        message.textContent = `Gracias por estar ahí, cuando las cosas van bien y cuando van mal.
-        Gracias por ser la piedra de apoyo para que yo pueda salir adelante.\n Gracias por escucharme soñar despierto. 
-        Gracias por entender, porque... tu siempre entiendes.
+        message.textContent = `Gracias por estar ahí, cuando las cosas van bien y cuando van mal, por ser la piedra de apoyo para que yo pueda salir adelante.\n Gracias por escucharme soñar despierto, y por entender, porque... tu siempre entiendes.
 
         Te amo, ¿cómo lo sé? cada día que pasa no es un día más que sin verte, sino un día menos para volver a verte.
         Te amo porque sin querer he puesto tu bien por delante del mío.
         Si no soy cariñoso o meloso todo el tiempo, no es porque no te quiero, es porque quiero que sea un momento muy especial.
         
-        En fin, gracias por todo.`;
-        message.style.whiteSpace = "pre-line";
-
+        En fin, gracias por ser la mejor <3.`;
         titulo.append(message)
 
         setTimeout(() => {

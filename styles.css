@@ -76,21 +76,22 @@ button:hover {
 }
 
 .titulo {
-    min-height: 80vh;
+    height: 80vh;
     padding-top: .9rem;
 }
 
 p {
     position: relative;
-    color: grey;
+    color: rgb(154, 150, 150);
     max-width: 90vh;
     padding-left: 6vh;
     padding-right: 6vh;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-size: .92em;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: .9em;
     opacity: 0;
     transition: opacity 2s ease-in-out;
+    white-space: pre-line;
 }
 
 p.show {
